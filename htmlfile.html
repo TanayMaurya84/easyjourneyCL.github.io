@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyJourney</title>
+    <link rel="stylesheet" href="cssfile.css">
+    <style>
+        .homebuttons:hover{
+            color:red;
+            text-decoration: underline;
+
+        }
+        input[type=text] {
+        width: 40%;
+        padding: 20px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: none;
+        background-color: #3CBC8D;
+        color: white;
+        border-radius: 20px;
+        font-size: 30px;
+        }
+        input[type=date]{
+        width: 40%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: none;
+        background-color: #3CBC8D;
+        color: white;
+        border-radius: 10px;
+        font-size: 30px;
+
+        }
+    </style>
+</head>
+<body style="background-image: url('beachaesthetic.jpg')" >
+    <div id="head">
+        <A href="homepage.com" class="homebuttons" text-align='center' id="home">Home</A>
+        <A href="signin.html" class="homebuttons" text-align="center" id="sign">SignIn/SignUp</A>
+    </div>
+    
+    <div id="input" >
+        <form>
+            <input type="date" placeholder="Enter date of Travel">    
+        </form>
+        <br>
+        <form id="form">
+            <input type="text" placeholder="Enter Source" id="source">
+            <input type="text" placeholder="Enter Destination" id="destination">
+            <button class="search" id="train" type="submit" name="submit" onclick="searchTrain()" href="trains.html">
+                Search for Trains
+            
+            </button>
+            
+            <button class="search" id="tourism" type="submit" name="submit"  onclick="searchSpots()" href="Tourism.html">
+                Search for tourist spots
+            </button>
+
+            
+            
+        </form>
+        
+    </div>
+    <script src="GeoApify.js"></script>
+    <script src="RailwayAPI.js"></script>
+    
+    <script src="jsfile.js"></script>
+    
+
+</body>
+</html>

@@ -1,0 +1,160 @@
+
+
+.homebuttons{
+    margin-top: 35px;
+    color: black;
+    background-color: rgb(221, 245, 11);
+    font-size:30px;
+    text-align:center;
+    text-decoration:none;
+    /* height: 10px; */
+    
+
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#head{
+
+    height: 10px;
+    border-style: none;
+    margin-top: 0px;
+    height: 100px;
+    background-color: rgb(221, 245, 11)
+}
+#home{
+    
+    float:left;
+    margin-left:10px;
+    
+}
+#sign{
+    float:right;
+    margin-right:10px;
+}
+#input{
+    width: 800px;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 400px;
+    /*margin: auto;*/
+    background-color: #F1F1F1;
+    box-shadow: 10px 10px 5px #9c9797;
+    text-align: center;
+    padding-top: 25px;
+
+}
+.search{
+    text-align: center;
+    margin-top: 100px;
+    background-color:rgb(255, 136, 0);
+    color:white;
+    font-size: 30px;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+    cursor:pointer;
+
+}
+.search:hover{
+    background-color: white;
+    color:black;
+}
+#signin {
+    background-color: #F1F1F1;
+    position: relative;
+    border: 3px solid grey;
+    box-shadow: 10px 10px;
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 500px; 
+    
+    padding-top: 10px;
+    font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+}
+#signup{
+        background-color: #F1F1F1;
+        position: relative;
+        border: 3px solid grey;
+        box-shadow: 10px 10px;
+        width: 500px;
+        height: 500px;
+        margin-top: 100px;
+        margin-left: 500px; 
+        
+        padding-top: 10px;
+        font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+}
+    
+
+#signtext{
+    text-align:center;
+    font-size:35px;
+}
+#error{
+    margin-top:20px;
+}
+.label{
+    font-size: 30px;
+    font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+    margin-top:30px;
+    margin-left:20px;
+    
+}
+.signinform{
+    border: none;
+    border-bottom: 2px solid red;
+    font-size:40px;
+    width:50%;
+    margin-left:20px;
+    transition-duration:1s;
+    padding: 10px 10px;
+
+}
+#submit{
+    color:white;
+    width:300px;
+    height:50px;
+    background-color:rgba(18, 86, 243, 0.978);
+    text-align:center;
+    margin-top:40px;
+    margin-left:100px;
+    font-size:40px;
+    cursor:pointer;
+}
+
+#gohome{
+    color:black;
+    margin-left:30px;
+    margin-top:20px;
+    font-size: 20px;
+    text-decoration: none;  
+}
+#gohome:hover{
+    color:red;
+    
+}
+#signupbutton{
+    text-align: right;
+    text-decoration: none;
+    color:black;
+    margin-left:200px;
+}
+#places {
+    background-color: #F1F1F1;
+    position: relative;
+    border: 3px solid grey;
+    box-shadow: 10px 10px;
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 500px; 
+    
+    padding-top: 10px;
+    font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+}
+  
+
+
+
